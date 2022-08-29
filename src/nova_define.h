@@ -1,0 +1,15 @@
+#ifndef NOVA_DEFINE_H
+#define NOVA_DEFINE_H
+
+// #define WIN32_LEAN_AND_MEAN     // specific of WIN32
+
+#define DISABLE_NOVA_MATH__USE_SHADER
+#define ENABLE_GLM_USE_SHADER
+#define ENABLE_LOGGING
+#define ALLOCATOR_TRACING_ENABLED
+#define ENABLE_ASSERT
+#define ENABLE_BENCHMARK
+#define OPENGL_DEBUG_CALLBACK
+#define DEBUG
+
+#endif
